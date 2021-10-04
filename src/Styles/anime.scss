@@ -1,0 +1,100 @@
+// NavAnime-------------->
+
+@keyframes navAnime{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes navAnime{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes navAnime{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-o-keyframes navAnime{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navAnime{
+    animation-name: navAnime;
+    -webkit-animation-name: navAnime;
+    -moz-animation-name: navAnime;
+    -o-animation-name: navAnime;
+}
+
+
+
+// ToSignUpAnime-------------->
+@keyframes tosignupAnime{
+    from{
+        transform: translateX(-50px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes tosignupAnime{
+    from{
+        transform: translateX(-50px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes tosignupAnime{
+    from{
+        transform: translateX(-50px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-o-keyframes tosignupAnime{
+    from{
+        transform: translateX(-50px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.tosignupAnime{
+    animation-name: tosignupAnime;
+    -webkit-animation-name: tosignupAnime;
+    -moz-animation-name: tosignupAnime;
+    -o-animation-name: tosignupAnime;
+}

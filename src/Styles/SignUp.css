@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.sign-up {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.sign-up .logo{
+    margin-bottom: 10px;
+}
+.sign-up .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #303066;
+}
+.sign-up .logo a img {
+    width: 40px;
+    margin-right: 7px;
+}
+.sign-up .logo a span {
+    color: #7979ff;
+}
+.form {
+    max-width: 31.25rem;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    color: #7373AA !important;
+}
+.form-control {
+    width: 100% !important;
+    height: 100%;
+    padding: 0 !important;
+    border: none;
+}
+.whead {
+    padding: 20px 15px;
+    border-bottom: 1px solid #d1d1e2;
+}
+.whead h1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #7373AA !important;
+    margin: 0;
+    padding: 0;
+}
+.account {
+    padding: 15px;
+}
+.for-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 1rem;
+}
+form {
+    border: none !important;
+}
+label {
+    color: #7373AA !important;
+}
+input {
+    color: #a0a0f0 !important;
+}
+.for-input label {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.for-input input {
+    padding: 10px 0 10px 15px;
+    border: 1px solid #c9c9f0;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.field {
+    width: 100%;
+    height: 42px;
+    padding: 0 !important;
+    border: 1px solid #c2c2fa;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.field span {
+    width: 30%;
+    height: 105% !important;
+    display: block;
+    background-color: #7373aa3b;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    font-size: 14px;
+    color: #7373AA;
+    transform: translateX(-1px);
+}
+.field input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.policy {
+    color: #7373AA;
+    text-align: center;
+    font-size: 12px;
+}
+.signup-btn {
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #cbcbf3;
+}
+.signup-btn button {
+    display: block;
+    width: 90%;
+    min-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin: auto;
+    border: none;
+    outline: none;
+    transition: .3s all;
+}
+.signup-btn button:hover, .signup-btn button:active {
+    background: #5a5abe;
+}
+.to-login {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.to-login a {
+    font-size: 1rem;
+    color: #7979ff;
+    text-decoration: none;
+}
